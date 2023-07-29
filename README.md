@@ -139,7 +139,7 @@ echo "====="
 Если всё было сделано правильно, то на странице `network` в GitHub, находящейся по адресу 
 `https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПОЗИТОРИЙ/network`, будет примерно такая схема:
   
-![Созданы обе ветки](img/01.png)
+![Созданы обе ветки](IMG/01.png)
 
 #### Merge
 
@@ -160,7 +160,7 @@ Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 
 В результате получаем такую схему:
   
-![Первый мерж](img/02.png)
+![Первый мерж](IMG/02.png)
 
 #### Rebase
 
@@ -327,4 +327,34 @@ Fast-forward
 **Шаг 3.** Отправил изменения в ветку main:
 
 ![img_1.png](IMG/img_8.png)
+
+#### Подготовка файла rebase.sh
+
+**Шаг 1.** С помощью команды git log нахожу хеш коммита prepare for merge and rebase и выполняю git checkout на него:
+
+![img_9.png](IMG/img_9.png)
+
+![img_10.png](IMG/img_10.png)
+
+**Шаг 2.** Создал ветку git-rebase, основываясь на текущем коммите:
+
+![img_11.png](IMG/img_11.png)
+
+**Шаг 3.** Изменил содержимое файла rebase.sh.
+
+**Шаг 4.** Отправил эти изменения в ветку git-rebase с комментарием git-rebase 1:
+
+![img_12.png](IMG/img_12.png)
+
+**Шаг 5.** Сделал ещё один коммит git-rebase 2 с пушем, заменив echo "Parameter: $param" на echo "Next parameter: $param":
+
+![img_13.png](IMG/img_13.png)
+
+#### Промежуточный итог  
+
+Проверил, что у меня получилось на network странице по ссылке https://github.com/DemoniumBlack/devops-netology/network:
+
+![img_14.png](IMG/img_14.png)
+
+Соответствует схеме из задания.
 

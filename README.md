@@ -396,24 +396,24 @@ Fast-forward
 
 Открывается текстовый редактор, предлагающий написать комментарий к новому объединённому коммиту:
 
-![img_5.png](img_5.png)
+![img_22.png](IMG/img_22.png)
 
 После решения конфликта Git сообщил:
 
-![img_6.png](img_6.png)
+![img_23.png](IMG/img_23.png)
 
 **Шаг 7.** Пытаюсь выполнить пуш и вижу, что команда завершается с ошибкой:
 
-![img_7.png](img_7.png)
+![img_24.png](IMG/img_24.png)
 
 Это происходит потому, что я пытаюсь перезаписать историю.
 
 **Шаг 8.** Пытаюсь выполнить пуш с флагом force и это удается сделать:
 
-![img_8.png](img_8.png)
+![img_25.png](IMG/img_25.png)
 
 **Шаг 9.** Смержу ветку git-rebase в main простой перемоткой:
 
-![img_9.png](img_9.png)
+![img_26.png](IMG/img_26.png)
 
 Ссылка на итоговый network график: https://github.com/DemoniumBlack/devops-netology/network

@@ -376,7 +376,7 @@ Fast-forward
 
 ![img_17.png](IMG/img_17.png)
 
-![img_3.png](img_3.png)
+![img_20.png](IMG/img_20.png)
 
 Смотрю содержимое файла rebase.sh и действительно, вижу метки, оставленные Git для решения конфликта:
 
@@ -388,7 +388,7 @@ Fast-forward
 
 **Шаг 5.** Опять получаю конфликт:
 
-![img_4.png](img_4.png)
+![img_21.png](IMG/img_21.png)
 
 Редактирую файл rebase.sh, оставляю строчку echo "Next parameter: $param".
 
@@ -415,3 +415,5 @@ Fast-forward
 **Шаг 9.** Смержу ветку git-rebase в main простой перемоткой:
 
 ![img_9.png](img_9.png)
+
+Ссылка на итоговый network график: https://github.com/DemoniumBlack/devops-netology/network
